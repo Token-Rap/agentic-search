@@ -29,6 +29,17 @@ server = [
     "pydantic>=2",
 ]
 
+# 路由模型的 GRPO 微调(scripts/rl/)。约 2.5GB CUDA wheel，只有要训练时才装:
+#   uv sync --extra rl --index-strategy unsafe-best-match
+rl = [
+    "torch>=2.5",
+    "transformers>=4.47",
+    "trl>=0.13",
+    "peft>=0.14",
+    "datasets>=3.0",
+    "accelerate>=1.2",
+]
+
 [dependency-groups]
 dev = ["pytest>=8.0"]
 media = [
@@ -39,6 +50,16 @@ media = [
 
 [tool.uv]
 default-groups = ["dev", "media"]
+
+# PyPI 上的 torch 在 Windows 是 CPU-only wheel，装上去 CUDA 不可用且不报错，
+# 要跑起来才发现在 CPU 上。显式指到官方 CUDA 源。
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
 
 [build-system]
 requires = ["hatchling"]

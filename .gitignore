@@ -11,3 +11,9 @@ models/
 
 .media_cache/
 faq_candidates.md
+
+# gzt 个人 harness (unknowns-workflow) 产物，非项目文档
+UNKNOWNS.md
+
+# 训练集由 scripts/rl/gen_dataset.py 生成，可再生，不入库
+data/rl/routes_train.jsonl
