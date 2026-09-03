@@ -29,10 +29,14 @@ server = [
     "pydantic>=2",
 ]
 
-# 路由模型的 GRPO 微调(scripts/rl/)。约 2.5GB CUDA wheel，只有要训练时才装:
-#   uv sync --extra rl --index-strategy unsafe-best-match
+# 路由模型的 GRPO 微调(scripts/rl/)。只有要训练时才装:
+#   UV_HTTP_TIMEOUT=600 uv sync --extra rl
+# ⚠ 必须调大超时: torch CUDA wheel 约 2.5GB，uv 默认 30s 会中途超时，
+#   而那次失败**退出码仍是 0** —— 看着装完了，import torch 才发现没装上。
 rl = [
-    "torch>=2.5",
+    # 钉 2.9.1: 本机 uv 缓存里已有这版的 cu126 wheel（另一个项目装过），
+    # 直接复用省掉 2.4GB 下载 —— 实测从这个源下载 50 分钟都没下完。
+    "torch==2.9.1",
     "transformers>=4.47",
     "trl>=0.13",
     "peft>=0.14",

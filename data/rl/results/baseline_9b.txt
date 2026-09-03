@@ -1,0 +1,22 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\ADMIN\AppData\Local\Temp\jieba.cache
+Loading model cost 0.783 seconds.
+Prefix dict has been built successfully.
+==============================================================
+路由器        : baseline qwen3.5:9b (n=216)
+评测集        : 216 条  (routes_eval.jsonl)
+--------------------------------------------------------------
+路由准确率     211/216 = 97.7%   95% CI [94.7%, 99.0%]
+  retrieve_docs   64/66 = 97.0%
+  web_search      70/71 = 98.6%
+  direct          77/79 = 97.5%
+格式解析失败   0/216
+端到端检索命中 62/64 = 96.9%   95% CI [89.3%, 99.1%]   (k=4)
+分辨率上限     n=216 时，准确率低于 94.7% 才可能被判定为显著变差；更小的差距只能说「未测出差异」
+--------------------------------------------------------------
+混淆（真实 -> 预测，只列出错的）：
+   retrieve_docs -> web_search     2
+          direct -> web_search     1
+      web_search -> retrieve_docs  1
+          direct -> retrieve_docs  1
+==============================================================

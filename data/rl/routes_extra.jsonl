@@ -1,0 +1,144 @@
+{"question": "星尘拿铁用了几份浓缩?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "月岩冷萃是什么价?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "陨石可颂卖多少钱?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "环形山贝果单价多少?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "冷萃咖啡泡多长时间?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "有哪些烘焙点心?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "招牌拿铁顶上撒的是什么?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "黑芝麻流心的是哪款点心?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "贝果卖完了还能买吗?", "route": "retrieve_docs", "expected_source": "menu.md"}
+{"question": "会员打几折?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "每月赠饮是什么规格?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "500 星尘点能做什么?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "烘焙点心套装要多少积分?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "会员日当天积分怎么算?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "星尘点过期吗?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "加入会员要交多少钱?", "route": "retrieve_docs", "expected_source": "membership.md"}
+{"question": "门店几点关门?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "哪天不营业?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "闭店那天在做什么?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "天文观测活动多久办一次?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "望远镜之夜几点开始?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "会员参加天台活动要钱吗?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "做错的饮品要重新付钱吗?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "取餐前多久可以退款?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "超过退款时限还能退吗?", "route": "retrieve_docs", "expected_source": "operations.md"}
+{"question": "下季度有什么计划?", "route": "retrieve_docs", "expected_source": "faq.md"}
+{"question": "NX-42 这个编号对应什么?", "route": "retrieve_docs", "expected_source": "suppliers.pdf"}
+{"question": "供货方有哪些?", "route": "retrieve_docs", "expected_source": "suppliers.pdf"}
+{"question": "例会纪要里提到了什么决定?", "route": "retrieve_docs", "expected_source": "meeting.wav"}
+{"question": "评审会视频里的新品编号是什么?", "route": "retrieve_docs", "expected_source": "review.mp4"}
+{"question": "今天广州气温多少度?", "route": "web_search"}
+{"question": "明天会不会下雪?", "route": "web_search"}
+{"question": "这周末天气适合出门吗?", "route": "web_search"}
+{"question": "现在欧元兑人民币多少?", "route": "web_search"}
+{"question": "黄金今天什么价?", "route": "web_search"}
+{"question": "上证指数今天涨了吗?", "route": "web_search"}
+{"question": "英伟达最新财报怎么样?", "route": "web_search"}
+{"question": "苹果最近发布了什么新品?", "route": "web_search"}
+{"question": "Node.js 现在的 LTS 是哪个版本?", "route": "web_search"}
+{"question": "React 19 有哪些新特性?", "route": "web_search"}
+{"question": "Kubernetes 最新稳定版本号?", "route": "web_search"}
+{"question": "Rust 最近一次更新是什么时候?", "route": "web_search"}
+{"question": "Docker Desktop 最新版修了什么?", "route": "web_search"}
+{"question": "今年有哪些大模型发布了?", "route": "web_search"}
+{"question": "OpenAI 最近有什么动态?", "route": "web_search"}
+{"question": "最近的地震发生在哪里?", "route": "web_search"}
+{"question": "今年高考人数是多少?", "route": "web_search"}
+{"question": "国庆假期怎么放?", "route": "web_search"}
+{"question": "春节是几月几号?", "route": "web_search"}
+{"question": "下届世界杯在哪个国家?", "route": "web_search"}
+{"question": "奥运会多少年办一次?", "route": "web_search"}
+{"question": "珠穆朗玛峰有多高?", "route": "web_search"}
+{"question": "太平洋最深处是哪里?", "route": "web_search"}
+{"question": "地球到月球有多远?", "route": "web_search"}
+{"question": "水的沸点是多少?", "route": "web_search"}
+{"question": "DNA 的全称是什么?", "route": "web_search"}
+{"question": "相对论是谁提出的?", "route": "web_search"}
+{"question": "圆周率前十位是多少?", "route": "web_search"}
+{"question": "《红楼梦》的作者是谁?", "route": "web_search"}
+{"question": "莎士比亚写过哪些悲剧?", "route": "web_search"}
+{"question": "第二次世界大战哪年结束?", "route": "web_search"}
+{"question": "秦始皇统一六国是哪一年?", "route": "web_search"}
+{"question": "美国有多少个州?", "route": "web_search"}
+{"question": "澳大利亚的首都是哪里?", "route": "web_search"}
+{"question": "世界上人口最多的国家是哪个?", "route": "web_search"}
+{"question": "光合作用需要什么条件?", "route": "web_search"}
+{"question": "为什么天空是蓝色的?", "route": "web_search"}
+{"question": "黑洞是怎么形成的?", "route": "web_search"}
+{"question": "疫苗的原理是什么?", "route": "web_search"}
+{"question": "什么是通货膨胀?", "route": "web_search"}
+{"question": "区块链是怎么工作的?", "route": "web_search"}
+{"question": "Transformer 架构是哪年提出的?", "route": "web_search"}
+{"question": "GPU 和 CPU 有什么区别?", "route": "web_search"}
+{"question": "HTTP 和 HTTPS 的区别是什么?", "route": "web_search"}
+{"question": "什么是量子计算机?", "route": "web_search"}
+{"question": "5G 比 4G 快多少?", "route": "web_search"}
+{"question": "电动车电池能用多少年?", "route": "web_search"}
+{"question": "咖啡因的半衰期是多久?", "route": "web_search"}
+{"question": "一杯咖啡大概多少卡路里?", "route": "web_search"}
+{"question": "咖啡豆主要产自哪些国家?", "route": "web_search"}
+{"question": "手冲和意式有什么区别?", "route": "web_search"}
+{"question": "早", "route": "direct"}
+{"question": "晚上好", "route": "direct"}
+{"question": "hi", "route": "direct"}
+{"question": "hello", "route": "direct"}
+{"question": "在不在", "route": "direct"}
+{"question": "有人吗", "route": "direct"}
+{"question": "打扰一下", "route": "direct"}
+{"question": "不好意思", "route": "direct"}
+{"question": "谢谢", "route": "direct"}
+{"question": "多谢啦", "route": "direct"}
+{"question": "太感谢了", "route": "direct"}
+{"question": "帮大忙了", "route": "direct"}
+{"question": "厉害", "route": "direct"}
+{"question": "牛啊", "route": "direct"}
+{"question": "可以的", "route": "direct"}
+{"question": "不错不错", "route": "direct"}
+{"question": "明白", "route": "direct"}
+{"question": "懂了", "route": "direct"}
+{"question": "收到", "route": "direct"}
+{"question": "知道了", "route": "direct"}
+{"question": "好嘞", "route": "direct"}
+{"question": "行吧", "route": "direct"}
+{"question": "嗯", "route": "direct"}
+{"question": "哦哦", "route": "direct"}
+{"question": "哈哈哈", "route": "direct"}
+{"question": "笑死", "route": "direct"}
+{"question": "有点意思", "route": "direct"}
+{"question": "挺好玩的", "route": "direct"}
+{"question": "拜拜", "route": "direct"}
+{"question": "先撤了", "route": "direct"}
+{"question": "下次聊", "route": "direct"}
+{"question": "回头见", "route": "direct"}
+{"question": "晚安", "route": "direct"}
+{"question": "你叫什么名字?", "route": "direct"}
+{"question": "你是机器人吗?", "route": "direct"}
+{"question": "你会说英语吗?", "route": "direct"}
+{"question": "你能帮我做什么?", "route": "direct"}
+{"question": "你有什么功能?", "route": "direct"}
+{"question": "怎么用你?", "route": "direct"}
+{"question": "随便聊聊", "route": "direct"}
+{"question": "无聊", "route": "direct"}
+{"question": "累了", "route": "direct"}
+{"question": "今天心情不错", "route": "direct"}
+{"question": "周末愉快", "route": "direct"}
+{"question": "新年快乐", "route": "direct"}
+{"question": "生日快乐", "route": "direct"}
+{"question": "辛苦啦", "route": "direct"}
+{"question": "麻烦了", "route": "direct"}
+{"question": "打扰了", "route": "direct"}
+{"question": "抱歉", "route": "direct"}
+{"question": "没关系", "route": "direct"}
+{"question": "算了", "route": "direct"}
+{"question": "不用了", "route": "direct"}
+{"question": "等一下", "route": "direct"}
+{"question": "稍等", "route": "direct"}
+{"question": "OK 的", "route": "direct"}
+{"question": "嗯嗯好的", "route": "direct"}
+{"question": "对对对", "route": "direct"}
+{"question": "是的", "route": "direct"}
+{"question": "不是", "route": "direct"}
+{"question": "为什么呀", "route": "direct"}
+{"question": "真的假的", "route": "direct"}
+{"question": "😀", "route": "direct"}
