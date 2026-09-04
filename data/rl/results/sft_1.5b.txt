@@ -1,0 +1,26 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<04:04,  1.38it/s]Loading weights:   1%|          | 4/338 [00:00<01:02,  5.36it/s]Loading weights:   2%|▏         | 7/338 [00:01<00:34,  9.52it/s]Loading weights:   3%|▎         | 10/338 [00:01<00:42,  7.70it/s]Loading weights:  15%|█▌        | 51/338 [00:01<00:04, 61.31it/s]Loading weights:  21%|██        | 71/338 [00:01<00:03, 82.12it/s]Loading weights:  26%|██▋       | 89/338 [00:01<00:02, 99.95it/s]Loading weights:  33%|███▎      | 110/338 [00:01<00:01, 117.18it/s]Loading weights:  38%|███▊      | 127/338 [00:02<00:03, 65.91it/s] Loading weights:  42%|████▏     | 141/338 [00:02<00:02, 75.92it/s]Loading weights:  46%|████▌     | 154/338 [00:02<00:03, 57.92it/s]Loading weights:  49%|████▊     | 164/338 [00:03<00:02, 60.87it/s]Loading weights:  51%|█████▏    | 174/338 [00:03<00:02, 56.98it/s]Loading weights:  58%|█████▊    | 195/338 [00:03<00:01, 80.17it/s]Loading weights:  65%|██████▍   | 219/338 [00:03<00:01, 108.88it/s]Loading weights:  72%|███████▏  | 242/338 [00:03<00:00, 130.18it/s]Loading weights:  78%|███████▊  | 263/338 [00:03<00:00, 146.52it/s]Loading weights:  84%|████████▍ | 285/338 [00:03<00:00, 162.49it/s]Loading weights:  90%|█████████ | 305/338 [00:03<00:00, 169.66it/s]Loading weights:  97%|█████████▋| 327/338 [00:04<00:00, 180.69it/s]Loading weights: 100%|██████████| 338/338 [00:04<00:00, 82.40it/s] 
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\ADMIN\AppData\Local\Temp\jieba.cache
+Loading model cost 0.440 seconds.
+Prefix dict has been built successfully.
+==============================================================
+路由器        : 1.5B after SFT
+评测集        : 216 条  (routes_eval.jsonl)
+--------------------------------------------------------------
+路由准确率     206/216 = 95.4%   95% CI [91.7%, 97.5%]
+  retrieve_docs   63/66 = 95.5%
+  web_search      64/71 = 90.1%
+  direct          79/79 = 100.0%
+格式解析失败   0/216
+端到端检索命中 61/64 = 95.3%   95% CI [87.1%, 98.4%]   (k=4)
+分辨率上限     n=216 时，准确率低于 91.7% 才可能被判定为显著变差；更小的差距只能说「未测出差异」
+--------------------------------------------------------------
+混淆（真实 -> 预测，只列出错的）：
+      web_search -> retrieve_docs  4
+      web_search -> direct         3
+   retrieve_docs -> web_search     2
+   retrieve_docs -> direct         1
+==============================================================
+逐条预测 -> data\rl\results\pred_sft15.jsonl

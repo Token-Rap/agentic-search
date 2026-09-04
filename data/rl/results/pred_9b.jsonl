@@ -1,0 +1,216 @@
+{"question": "星尘拿铁多少钱?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星尘拿铁价格"}
+{"question": "月岩冷萃冷泡多久?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "月岩冷萃冷泡时间"}
+{"question": "环形山贝果每天限量多少个?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "环形山贝果 每日限量"}
+{"question": "陨石可颂的内馅是什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "陨石可颂 内馅"}
+{"question": "店里的招牌饮品是哪一款?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "招牌饮品"}
+{"question": "星尘拿铁用的是什么奶?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星尘拿铁 奶"}
+{"question": "有没有带柑橘味的咖啡?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "柑橘味咖啡"}
+{"question": "最贵的饮品是多少钱?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "最贵的饮品价格"}
+{"question": "星环会员年费多少?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星环会员年费"}
+{"question": "会员有哪些权益?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "会员权益"}
+{"question": "积分怎么累积?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "积分累积规则"}
+{"question": "多少星尘点可以换一杯饮品?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星尘点 饮品 兑换规则"}
+{"question": "积分有效期多久?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "积分有效期"}
+{"question": "会员日是每月几号?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "会员日"}
+{"question": "生日当天会员有什么优惠?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "生日当天会员优惠"}
+{"question": "1000 点能兑换什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "1000 点积分兑换"}
+{"question": "门店营业时间是几点到几点?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "门店营业时间"}
+{"question": "周三营业吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "营业时间 周三"}
+{"question": "望远镜之夜是什么活动?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "望远镜之夜"}
+{"question": "望远镜之夜非会员要收费吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "望远镜之夜 非会员 收费"}
+{"question": "预付订单能退款吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "预付订单退款"}
+{"question": "饮品做错了怎么处理?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "饮品做错处理方式"}
+{"question": "天台什么时候开放?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "天台开放时间"}
+{"question": "退款有时限要求吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "退款时限"}
+{"question": "新门店打算开在哪个区?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "新门店开设区域"}
+{"question": "第二家店的选址定了吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "第二家店 选址"}
+{"question": "供应商 NX-42 供应什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "供应商 NX-42 供应"}
+{"question": "我们的咖啡豆是哪家供的?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "咖啡豆供应商"}
+{"question": "供应商名单里有哪些公司?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "供应商名单"}
+{"question": "例会上决定了什么事情?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "例会决定事项"}
+{"question": "七月例会的结论是什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "七月例会"}
+{"question": "SP-2026 评审的是什么新品?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "SP-2026 评审新品"}
+{"question": "新品评审会上展示了什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "新品评审"}
+{"question": "季节限定饮品有哪些?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "季节限定饮品"}
+{"question": "店内消费满多少有优惠?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "消费优惠"}
+{"question": "设备维护安排在星期几?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "设备维护安排"}
+{"question": "今天北京天气怎么样?", "gold": "web_search", "pred": "web_search", "query": "北京天气"}
+{"question": "现在美元兑人民币汇率是多少?", "gold": "web_search", "pred": "web_search", "query": "美元兑人民币汇率"}
+{"question": "LangGraph 最新版本有什么变化?", "gold": "web_search", "pred": "web_search", "query": "LangGraph 最新版本"}
+{"question": "Python 3.13 什么时候发布的?", "gold": "web_search", "pred": "web_search", "query": "Python 3.13 发布时间"}
+{"question": "最近有什么 AI 领域的新闻?", "gold": "web_search", "pred": "web_search", "query": "AI 领域最新新闻"}
+{"question": "今年诺贝尔物理学奖颁给了谁?", "gold": "web_search", "pred": "web_search", "query": "今年诺贝尔物理学奖获得者"}
+{"question": "上海明天会下雨吗?", "gold": "web_search", "pred": "web_search", "query": "上海明天天气"}
+{"question": "特斯拉今天的股价是多少?", "gold": "web_search", "pred": "web_search", "query": "特斯拉今天股价"}
+{"question": "PyTorch 现在最新的稳定版是哪个?", "gold": "web_search", "pred": "web_search", "query": "PyTorch 最新稳定版本"}
+{"question": "本周有什么重要的科技发布会?", "gold": "web_search", "pred": "web_search", "query": "本周重要科技发布会"}
+{"question": "比特币现在什么价?", "gold": "web_search", "pred": "web_search", "query": "比特币价格"}
+{"question": "最近上映了什么电影?", "gold": "web_search", "pred": "web_search", "query": "最近上映的电影"}
+{"question": "世界上最高的山是哪座?", "gold": "web_search", "pred": "web_search", "query": "世界上最高的山"}
+{"question": "光速是多少?", "gold": "web_search", "pred": "web_search", "query": "光速"}
+{"question": "谁写的《百年孤独》?", "gold": "web_search", "pred": "web_search", "query": "《百年孤独》作者"}
+{"question": "法国的首都是哪里?", "gold": "web_search", "pred": "web_search", "query": "法国首都"}
+{"question": "量子纠缠是什么意思?", "gold": "web_search", "pred": "web_search", "query": "量子纠缠"}
+{"question": "唐朝持续了多少年?", "gold": "web_search", "pred": "web_search", "query": "唐朝持续了多少年"}
+{"question": "冬奥会下一届在哪里办?", "gold": "web_search", "pred": "web_search", "query": "冬奥会下一届举办地"}
+{"question": "全球气温上升了多少度?", "gold": "web_search", "pred": "web_search", "query": "全球气温上升了多少度"}
+{"question": "你好", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "在吗?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "谢谢你的帮助", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "早上好", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你是谁?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你能做什么?", "gold": "direct", "pred": "web_search", "query": "通用问答助手能力说明"}
+{"question": "辛苦了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "再见", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "哈哈,有意思", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "好的,明白了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "麻烦你了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "没事了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "在忙吗", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "下午好呀", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "OK", "gold": "direct", "pred": "retrieve_docs", "query": "OK"}
+{"question": "嗯嗯", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "星尘拿铁用了几份浓缩?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星尘拿铁 浓缩咖啡"}
+{"question": "月岩冷萃是什么价?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "月岩冷萃"}
+{"question": "陨石可颂卖多少钱?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "陨石可颂价格"}
+{"question": "环形山贝果单价多少?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "环形山贝果 单价"}
+{"question": "冷萃咖啡泡多长时间?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "冷萃咖啡时长"}
+{"question": "有哪些烘焙点心?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "烘焙点心"}
+{"question": "招牌拿铁顶上撒的是什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "招牌拿铁 顶上撒的"}
+{"question": "黑芝麻流心的是哪款点心?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "黑芝麻流心点心"}
+{"question": "贝果卖完了还能买吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "贝果售罄补货政策"}
+{"question": "会员打几折?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "会员折扣"}
+{"question": "每月赠饮是什么规格?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "每月赠饮规格"}
+{"question": "500 星尘点能做什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "500 星尘点兑换内容"}
+{"question": "烘焙点心套装要多少积分?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "烘焙点心套装 积分"}
+{"question": "会员日当天积分怎么算?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "会员日积分计算规则"}
+{"question": "星尘点过期吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "星尘点过期"}
+{"question": "加入会员要交多少钱?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "会员费用"}
+{"question": "门店几点关门?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "关门时间"}
+{"question": "哪天不营业?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "营业时间/休业日"}
+{"question": "闭店那天在做什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "闭店活动"}
+{"question": "天文观测活动多久办一次?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "天文观测活动频率"}
+{"question": "望远镜之夜几点开始?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "望远镜之夜 时间"}
+{"question": "会员参加天台活动要钱吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "天台活动 费用"}
+{"question": "做错的饮品要重新付钱吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "做错的饮品 赔偿政策"}
+{"question": "取餐前多久可以退款?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "退款规则"}
+{"question": "超过退款时限还能退吗?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "退款时限"}
+{"question": "下季度有什么计划?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "下季度计划"}
+{"question": "NX-42 这个编号对应什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "NX-42"}
+{"question": "供货方有哪些?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "供货方"}
+{"question": "例会纪要里提到了什么决定?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "例会纪要 决定"}
+{"question": "评审会视频里的新品编号是什么?", "gold": "retrieve_docs", "pred": "retrieve_docs", "query": "新品编号"}
+{"question": "今天广州气温多少度?", "gold": "web_search", "pred": "web_search", "query": "今天广州气温"}
+{"question": "明天会不会下雪?", "gold": "web_search", "pred": "web_search", "query": "明天"}
+{"question": "这周末天气适合出门吗?", "gold": "web_search", "pred": "web_search", "query": "这周末天气"}
+{"question": "现在欧元兑人民币多少?", "gold": "web_search", "pred": "web_search", "query": "欧元兑人民币汇率"}
+{"question": "黄金今天什么价?", "gold": "web_search", "pred": "web_search", "query": "黄金今日价格"}
+{"question": "上证指数今天涨了吗?", "gold": "web_search", "pred": "web_search", "query": "上证指数今日涨跌"}
+{"question": "英伟达最新财报怎么样?", "gold": "web_search", "pred": "web_search", "query": "英伟达最新财报"}
+{"question": "苹果最近发布了什么新品?", "gold": "web_search", "pred": "web_search", "query": "苹果最新发布的产品"}
+{"question": "Node.js 现在的 LTS 是哪个版本?", "gold": "web_search", "pred": "web_search", "query": "Node.js current LTS version"}
+{"question": "React 19 有哪些新特性?", "gold": "web_search", "pred": "web_search", "query": "React 19 新特性"}
+{"question": "Kubernetes 最新稳定版本号?", "gold": "web_search", "pred": "web_search", "query": "Kubernetes latest stable version"}
+{"question": "Rust 最近一次更新是什么时候?", "gold": "web_search", "pred": "web_search", "query": "Rust latest release version date"}
+{"question": "Docker Desktop 最新版修了什么?", "gold": "web_search", "pred": "web_search", "query": "Docker Desktop 最新修复内容"}
+{"question": "今年有哪些大模型发布了?", "gold": "web_search", "pred": "web_search", "query": "今年发布的大模型列表"}
+{"question": "OpenAI 最近有什么动态?", "gold": "web_search", "pred": "web_search", "query": "OpenAI recent developments news"}
+{"question": "最近的地震发生在哪里?", "gold": "web_search", "pred": "web_search", "query": "地震"}
+{"question": "今年高考人数是多少?", "gold": "web_search", "pred": "web_search", "query": "今年高考人数"}
+{"question": "国庆假期怎么放?", "gold": "web_search", "pred": "web_search", "query": "国庆假期放假安排"}
+{"question": "春节是几月几号?", "gold": "web_search", "pred": "web_search", "query": "春节日期"}
+{"question": "下届世界杯在哪个国家?", "gold": "web_search", "pred": "web_search", "query": "下届世界杯举办国家"}
+{"question": "奥运会多少年办一次?", "gold": "web_search", "pred": "retrieve_docs", "query": "奥运会举办周期"}
+{"question": "珠穆朗玛峰有多高?", "gold": "web_search", "pred": "web_search", "query": "珠穆朗玛峰高度"}
+{"question": "太平洋最深处是哪里?", "gold": "web_search", "pred": "web_search", "query": "太平洋最深处"}
+{"question": "地球到月球有多远?", "gold": "web_search", "pred": "web_search", "query": "地球到月球距离"}
+{"question": "水的沸点是多少?", "gold": "web_search", "pred": "direct", "query": ""}
+{"question": "DNA 的全称是什么?", "gold": "web_search", "pred": "web_search", "query": "DNA 全称"}
+{"question": "相对论是谁提出的?", "gold": "web_search", "pred": "web_search", "query": "相对论提出者"}
+{"question": "圆周率前十位是多少?", "gold": "web_search", "pred": "web_search", "query": "圆周率前十位"}
+{"question": "《红楼梦》的作者是谁?", "gold": "web_search", "pred": "web_search", "query": "《红楼梦》的作者是谁"}
+{"question": "莎士比亚写过哪些悲剧?", "gold": "web_search", "pred": "web_search", "query": "莎士比亚写的悲剧"}
+{"question": "第二次世界大战哪年结束?", "gold": "web_search", "pred": "web_search", "query": "第二次世界大战结束年份"}
+{"question": "秦始皇统一六国是哪一年?", "gold": "web_search", "pred": "web_search", "query": "秦始皇统一六国年份"}
+{"question": "美国有多少个州?", "gold": "web_search", "pred": "web_search", "query": "美国有多少个州"}
+{"question": "澳大利亚的首都是哪里?", "gold": "web_search", "pred": "web_search", "query": "澳大利亚首都"}
+{"question": "世界上人口最多的国家是哪个?", "gold": "web_search", "pred": "web_search", "query": "世界上人口最多的国家"}
+{"question": "光合作用需要什么条件?", "gold": "web_search", "pred": "web_search", "query": "光合作用需要什么条件"}
+{"question": "为什么天空是蓝色的?", "gold": "web_search", "pred": "web_search", "query": "天空为什么是蓝色"}
+{"question": "黑洞是怎么形成的?", "gold": "web_search", "pred": "web_search", "query": "黑洞的形成"}
+{"question": "疫苗的原理是什么?", "gold": "web_search", "pred": "web_search", "query": "疫苗的原理"}
+{"question": "什么是通货膨胀?", "gold": "web_search", "pred": "web_search", "query": "通货膨胀的定义与原理"}
+{"question": "区块链是怎么工作的?", "gold": "web_search", "pred": "web_search", "query": "区块链工作原理"}
+{"question": "Transformer 架构是哪年提出的?", "gold": "web_search", "pred": "web_search", "query": "Transformer 架构提出年份"}
+{"question": "GPU 和 CPU 有什么区别?", "gold": "web_search", "pred": "web_search", "query": "GPU 和 CPU 的区别"}
+{"question": "HTTP 和 HTTPS 的区别是什么?", "gold": "web_search", "pred": "web_search", "query": "HTTP 和 HTTPS 的区别"}
+{"question": "什么是量子计算机?", "gold": "web_search", "pred": "web_search", "query": "什么是量子计算机"}
+{"question": "5G 比 4G 快多少?", "gold": "web_search", "pred": "web_search", "query": "5G 比 4G 快多少"}
+{"question": "电动车电池能用多少年?", "gold": "web_search", "pred": "web_search", "query": "电动车电池寿命年限"}
+{"question": "咖啡因的半衰期是多久?", "gold": "web_search", "pred": "web_search", "query": "咖啡因的半衰期"}
+{"question": "一杯咖啡大概多少卡路里?", "gold": "web_search", "pred": "web_search", "query": "一杯咖啡多少卡路里"}
+{"question": "咖啡豆主要产自哪些国家?", "gold": "web_search", "pred": "web_search", "query": "咖啡豆主要产自哪些国家"}
+{"question": "手冲和意式有什么区别?", "gold": "web_search", "pred": "web_search", "query": "手冲咖啡和意式咖啡的区别"}
+{"question": "早", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "晚上好", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "hi", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "hello", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "在不在", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "有人吗", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "打扰一下", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "不好意思", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "谢谢", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "多谢啦", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "太感谢了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "帮大忙了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "厉害", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "牛啊", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "可以的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "不错不错", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "明白", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "懂了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "收到", "gold": "direct", "pred": "retrieve_docs", "query": "收到"}
+{"question": "知道了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "好嘞", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "行吧", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "嗯", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "哦哦", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "哈哈哈", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "笑死", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "有点意思", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "挺好玩的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "拜拜", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "先撤了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "下次聊", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "回头见", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "晚安", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你叫什么名字?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你是机器人吗?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你会说英语吗?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你能帮我做什么?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "你有什么功能?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "怎么用你?", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "随便聊聊", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "无聊", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "累了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "今天心情不错", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "周末愉快", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "新年快乐", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "生日快乐", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "辛苦啦", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "麻烦了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "打扰了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "抱歉", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "没关系", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "算了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "不用了", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "等一下", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "稍等", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "OK 的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "嗯嗯好的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "对对对", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "是的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "不是", "gold": "direct", "pred": "retrieve_docs", "query": "不是"}
+{"question": "为什么呀", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "真的假的", "gold": "direct", "pred": "direct", "query": ""}
+{"question": "😀", "gold": "direct", "pred": "direct", "query": ""}

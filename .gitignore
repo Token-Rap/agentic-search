@@ -20,3 +20,6 @@ data/rl/routes_train.jsonl
 
 # 合并产物，由 scripts/rl/merge_eval.py 再生
 data/rl/routes_eval.jsonl
+
+# LoRA 权重与训练产物，可由 scripts/rl/ 重新训练
+models/router-*

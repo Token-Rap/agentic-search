@@ -21,7 +21,11 @@ from agentic_search.llm import make_chat_llm  # noqa: E402
 from retriever_env import make_retriever, retrieval_hits  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-EVAL_PATH = ROOT / "data" / "rl" / "routes.jsonl"
+# 必须对**实际使用的**评测集去重。merge_eval.py 产出的 routes_eval.jsonl
+# 是 216 条，只对旧的 72 条去重会把另外 144 条评测样本漏进训练集。
+EVAL_PATH = ROOT / "data" / "rl" / "routes_eval.jsonl"
+if not EVAL_PATH.exists():
+    EVAL_PATH = ROOT / "data" / "rl" / "routes.jsonl"
 OUT_PATH = ROOT / "data" / "rl" / "routes_train.jsonl"
 
 # 本地类必须落到真实文档上，否则检索命中奖励无从算起。

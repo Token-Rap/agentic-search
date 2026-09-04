@@ -79,6 +79,8 @@ def main():
     ap.add_argument("--max-new-tokens", type=int, default=48)
     ap.add_argument("--top-k", type=int, default=4)
     ap.add_argument("--lora-r", type=int, default=16)
+    ap.add_argument("--init-from", default=str(ROOT / "models" / "router-sft"),
+                    help="SFT 产出的 LoRA 目录；传空串则从基础模型开始")
     a = ap.parse_args()
 
     if not TRAIN_PATH.exists():
@@ -124,13 +126,29 @@ def main():
         bf16=True,
         report_to=[],
     )
+    # 从 SFT 的 LoRA 接着训。直接用基础模型的话，0.5B 零样本路由错 70%，
+    # 每组采样同分、优势为零、梯度为零（实测 frac_reward_zero_std 0.8~0.9）。
+    if a.init_from:
+        from peft import PeftModel
+        from transformers import AutoModelForCausalLM
+
+        base = AutoModelForCausalLM.from_pretrained(
+            a.base_model, dtype=torch.bfloat16, device_map="cuda"
+        )
+        model = PeftModel.from_pretrained(base, a.init_from, is_trainable=True)
+        peft_cfg = None
+        print(f"从 SFT 权重继续: {a.init_from}", flush=True)
+    else:
+        model = a.base_model
+        peft_cfg = LoraConfig(r=a.lora_r, lora_alpha=a.lora_r * 2,
+                              lora_dropout=0.05, task_type="CAUSAL_LM")
+
     trainer = GRPOTrainer(
-        model=a.base_model,
+        model=model,
         reward_funcs=build_reward(retriever, a.top_k, stats),
         args=cfg,
         train_dataset=ds,
-        peft_config=LoraConfig(r=a.lora_r, lora_alpha=a.lora_r * 2,
-                               lora_dropout=0.05, task_type="CAUSAL_LM"),
+        peft_config=peft_cfg,
     )
     trainer.train()
     trainer.save_model(a.out)

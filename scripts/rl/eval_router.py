@@ -92,13 +92,17 @@ def make_hf_fn(model_dir, base_model, max_new_tokens):
 
     def fn(q):
         msgs = [{"role": "user", "content": ROUTER_PROMPT.format(question=q)}]
-        ids = tok.apply_chat_template(
-            msgs, add_generation_prompt=True, return_tensors="pt"
-        ).to(model.device)
+        # transformers 5.x 的 apply_chat_template(return_tensors=...) 返回
+        # BatchEncoding 而不是张量，直接喂 generate 会 AttributeError。
+        # 先渲染成字符串再单独 tokenize，跨版本都稳。
+        text = tok.apply_chat_template(msgs, add_generation_prompt=True,
+                                       tokenize=False)
+        enc = tok(text, return_tensors="pt").to(model.device)
         with torch.no_grad():
-            out = model.generate(ids, max_new_tokens=max_new_tokens,
+            out = model.generate(**enc, max_new_tokens=max_new_tokens,
                                  do_sample=False, pad_token_id=tok.eos_token_id)
-        return tok.decode(out[0][ids.shape[1]:], skip_special_tokens=True)
+        return tok.decode(out[0][enc["input_ids"].shape[1]:],
+                          skip_special_tokens=True)
 
     return fn
 
@@ -111,6 +115,9 @@ def main():
     ap.add_argument("--max-new-tokens", type=int, default=48)
     ap.add_argument("--top-k", type=int, default=4)
     ap.add_argument("--label", default=None)
+    ap.add_argument("--dump", default=None,
+                    help="逐条预测写到这个 jsonl —— 两个模型比较必须配对，"
+                         "只比总准确率无法判断差异是否显著")
     a = ap.parse_args()
 
     rows = [json.loads(l) for l in EVAL_PATH.read_text(encoding="utf-8").splitlines()
@@ -120,6 +127,7 @@ def main():
     retriever = make_retriever()
 
     n_route_ok = n_parse_fail = n_infer_err = 0
+    dump_rows = []
     per_class = collections.defaultdict(lambda: [0, 0])   # route -> [对, 总]
     confusion = collections.Counter()
     local_total = local_hit = 0
@@ -149,6 +157,8 @@ def main():
             per_class[gold][0] += 1
         # 命中率只在「目标文档确实检得到」的子集上算；merge_eval.py 标注。
         # 未标注的老格式默认参与，保持向后兼容。
+        dump_rows.append({"question": r["question"], "gold": gold,
+                          "pred": pred, "query": query})
         if gold == "retrieve_docs" and r.get("hit_eligible", True):
             local_total += 1
             # 用模型自己生成的 query 检索；没给 query 就退回原问题，
@@ -186,6 +196,14 @@ def main():
         if gold != pred:
             print(f"  {gold:>14} -> {pred:<14} {c}")
     print("=" * 62)
+
+    if a.dump:
+        p = pathlib.Path(a.dump)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with p.open("w", encoding="utf-8") as f:
+            for row in dump_rows:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        print(f"逐条预测 -> {p}")
 
 
 if __name__ == "__main__":

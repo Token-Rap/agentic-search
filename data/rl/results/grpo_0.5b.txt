@@ -1,0 +1,25 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:36,  7.83it/s]Loading weights:  33%|███▎      | 96/290 [00:00<00:00, 495.31it/s]Loading weights:  55%|█████▍    | 159/290 [00:00<00:00, 531.77it/s]Loading weights:  84%|████████▍ | 243/290 [00:00<00:00, 627.34it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 576.14it/s]
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\ADMIN\AppData\Local\Temp\jieba.cache
+Loading model cost 0.776 seconds.
+Prefix dict has been built successfully.
+==============================================================
+路由器        : 0.5B after SFT+GRPO
+评测集        : 216 条  (routes_eval.jsonl)
+--------------------------------------------------------------
+路由准确率     182/216 = 84.3%   95% CI [78.8%, 88.5%]
+  retrieve_docs   60/66 = 90.9%
+  web_search      44/71 = 62.0%
+  direct          78/79 = 98.7%
+格式解析失败   0/216
+端到端检索命中 59/64 = 92.2%   95% CI [83.0%, 96.6%]   (k=4)
+分辨率上限     n=216 时，准确率低于 78.8% 才可能被判定为显著变差；更小的差距只能说「未测出差异」
+--------------------------------------------------------------
+混淆（真实 -> 预测，只列出错的）：
+      web_search -> retrieve_docs  25
+   retrieve_docs -> direct         6
+      web_search -> direct         2
+          direct -> web_search     1
+==============================================================
