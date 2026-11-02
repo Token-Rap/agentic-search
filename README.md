@@ -1,5 +1,13 @@
 # agentic-search
 
+## Demo
+
+![本地 RAG 问答演示](docs/assets/demo.gif)
+
+本地检索样本文档，回答问题并展示引用来源。
+
+**[一页怎么跑](docs/QUICKSTART.md)**
+
 LangChain + LangGraph 的 agentic search 引擎:**本地知识库 RAG + Web 搜索双通道,agent 自主路由**。模型自主决定每个问题走本地检索(`retrieve_docs`)、联网搜索(`web_search`)还是直接回答。本地通道全链路离线:Ollama(qwen3.5:9b + bge-m3)+ Chroma,零 API key;Web 通道(Tavily)可选,不配置则自动降级为纯本地 RAG。支持 Markdown / PDF / 音频 / 视频多模态语料、增量索引、BM25+向量混合检索、ACL 权限过滤、语义缓存、检索质量评估。
 
 ## 前置条件
