@@ -5,7 +5,7 @@
 ```text
 Agentic Search — 角色: manager | Web 搜索: 关闭(未配置 TAVILY_API_KEY,纯本地模式) | exit 退出
 
-你: 助手: 
+你: 助手:
 🔍 检索: 星尘咖啡馆的招牌饮品
 Building prefix dict from the default dictionary ...
 Loading model from cache C:\Users\ADMIN\AppData\Local\Temp\jieba.cache
